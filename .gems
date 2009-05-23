@@ -1,0 +1,2 @@
+hpricot --version '>= 0.2' --source code.whytheluckystuff.com
+haml --version 2.0.2
