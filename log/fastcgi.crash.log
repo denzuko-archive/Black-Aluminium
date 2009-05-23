@@ -3,3 +3,20 @@
 [23/May/2009:16:30:58 :: 21082] asked to stop immediately
 [23/May/2009:16:30:58 :: 21082] stopping after explicit exit
 [23/May/2009:16:43:32 :: 23744] starting
+[23/May/2009:17:26:59 :: 23744] asked to reload ASAP
+[23/May/2009:17:26:59 :: 23744] Dispatcher failed to catch: undefined method `reset_application!' for ActionController::Dispatcher:Class (NoMethodError)
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:219:in `restore!'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:207:in `reload!'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:177:in `reload_handler'
+  /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/inflector.rb:283:in `to_proc'
+  /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `call'
+  /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `each'
+  /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:77:in `process_each_request'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:76:in `catch'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:76:in `process_each_request'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:50:in `process!'
+  /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:24:in `process!'
+  /Users/denzuko/heroku-test/public/dispatch.fcgi:24
+retrying after unhandled exception
+[23/May/2009:17:26:59 :: 23744] starting
