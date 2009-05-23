@@ -6,3 +6,6 @@
 127.0.0.1 localhost:3000 - [23/May/2009:16:30:43 -0600] "GET /stylesheets/blueprint/print.css HTTP/1.1" 200 666 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.10) Gecko/2009042315 Firefox/3.0.10"
 127.0.0.1 localhost:3000 - [23/May/2009:16:43:30 -0600] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.10) Gecko/2009042315 Firefox/3.0.10"
 127.0.0.1 localhost:3000 - [23/May/2009:16:43:31 -0600] "GET /stylesheets/blueprint/print.css HTTP/1.1" 304 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.10) Gecko/2009042315 Firefox/3.0.10"
+127.0.0.1 localhost:3000 - [23/May/2009:16:43:31 -0600] "GET /stylesheets/blueprint/screen.css HTTP/1.1" 304 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.10) Gecko/2009042315 Firefox/3.0.10"
+127.0.0.1 localhost:3000 - [23/May/2009:16:45:31 -0600] "GET / HTTP/1.1" 200 304 "-" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.10) Gecko/2009042315 Firefox/3.0.10"
+127.0.0.1 localhost:3000 - [23/May/2009:16:45:32 -0600] "GET /stylesheets/blueprint/screen.css HTTP/1.1" 200 3013 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.0.10) Gecko/2009042315 Firefox/3.0.10"
