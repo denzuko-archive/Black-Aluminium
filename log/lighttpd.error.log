@@ -1,0 +1,4 @@
+2009-05-23 16:15:23: (log.c.75) server started 
+2009-05-23 16:30:58: (server.c.1361) [note] graceful shutdown started 
+2009-05-23 16:30:58: (server.c.1475) server stopped by UID = 0 PID = 0 
+2009-05-23 16:43:30: (log.c.75) server started 

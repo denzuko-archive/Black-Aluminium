@@ -1,21 +1,5 @@
-body {
-  background-color: #4B7399;
-  color: #000;
-  font-family: Verdana, Helvetica, Arial;
-  font-size: 14px;
-}
-
-a img {
-  border: none;
-}
-
-a {
-  color: #0000FF;
-}
-
 #heading {
   /* background-image: url('/images/background.png'); */
-  background-color: #FFF;
   text-align: center;
   width: 75%;
   height: 125px;
@@ -24,21 +8,10 @@ a {
   margin-top: 20px;
   border: solid 1px black;
 }
-
-#container {
-  width: 75%;
-  margin: 0 auto;
-  background-color: #FFF;
-  padding: 20px 40px;
-  border: solid 1px black;
-  margin-top: 20px;
-}
-
 #flash_notice, #flash_error {
   padding: 5px 8px;
   margin: 10px 0;
 }
-
 #flash_notice {
   background-color: #CFC;
   border: solid 1px #6C6;
@@ -52,8 +25,6 @@ a {
 .clear {
   clear: both;
 }
-
-
 
 .fieldWithErrors {
   display: inline;
