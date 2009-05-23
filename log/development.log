@@ -1,0 +1,88 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-23 16:15:37) [GET]
+  Session ID: 5b952ae914f248f253eb5ed87faa720b
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:103:in `process_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:101:in `process_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:78:in `process_each_request'
+    /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:600:in `each_cgi'
+    /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `each'
+    /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `each_cgi'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:77:in `process_each_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:76:in `catch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:76:in `process_each_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:50:in `process!'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:24:in `process!'
+    /public/dispatch.fcgi:24
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-05-23 16:16:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--58a7df8517a72ba3011f009ee2697f6216989729
+  Parameters: {"action"=>"index", "controller"=>"hello"}
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-05-23 16:16:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--58a7df8517a72ba3011f009ee2697f6216989729
+  Parameters: {"action"=>"index", "controller"=>"hello"}
+
+
+MissingSourceFile (no such file to load -- sqlite3):
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `sass_old_process'
+    /opt/local/lib/ruby/gems/1.8/gems/haml-2.0.2/lib/sass/plugin/rails.rb:19:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:103:in `process_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:101:in `process_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:78:in `process_each_request'
+    /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:600:in `each_cgi'
+    /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `each'
+    /opt/local/lib/ruby/vendor_ruby/1.8/fcgi.rb:597:in `each_cgi'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:77:in `process_each_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:76:in `catch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:76:in `process_each_request'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:50:in `process!'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/fcgi_handler.rb:24:in `process!'
+    /public/dispatch.fcgi:24
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
