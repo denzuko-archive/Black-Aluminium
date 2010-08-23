@@ -1,1 +1,10 @@
+log/*.log
+tmp/**/*
+doc/api
+doc/app
+.DS_Store
+Thumbs.db
+Desktop.ini
 .svn
+*~
+*bak
