@@ -5581,3 +5581,15 @@ Rendering template within layouts/application
 Rendering announcements/index
   [4;36;1mAnnouncement Load (0.001316)[0m   [0;1mSELECT * FROM "announcements" WHERE (updated_at > '2010-08-25 05:17:20' OR starts_at > '2010-08-25 05:17:24') AND (starts_at <= '2010-08-25 05:17:24' AND ends_at >= '2010-08-25 05:17:24') [0m
 Completed in 0.04542 (22 reqs/sec) | Rendering: 0.02316 (50%) | DB: 0.00337 (7%) | 200 OK [http://psynosis.local/announcements]
+
+
+Processing HelloController#index (for 192.168.1.11 at 2010-08-25 05:54:51) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlYjI0ODVmNzEwMTlmMTM3ZjQ2M2Q1ZDAzNDU2MjM3
+NWQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA6G2Fubm91bmNlbWVudF9oaWRlX3RpbWV1OglUaW1l
+DSufG4D/nkBF--da0756ebf8f0261d3fab4f0421f9541457841fa3
+  Parameters: {"action"=>"index", "controller"=>"hello"}
+Rendering template within layouts/application
+Rendering hello/index
+  [4;35;1mAnnouncement Load (0.002094)[0m   [0mSELECT * FROM "announcements" WHERE (updated_at > '2010-08-25 05:17:20' OR starts_at > '2010-08-25 05:54:51') AND (starts_at <= '2010-08-25 05:54:51' AND ends_at >= '2010-08-25 05:54:51') [0m
+Completed in 0.03596 (27 reqs/sec) | Rendering: 0.03158 (87%) | DB: 0.00209 (5%) | 200 OK [http://psynosis.local/]
