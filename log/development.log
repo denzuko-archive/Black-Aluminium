@@ -5593,3 +5593,70 @@ Rendering template within layouts/application
 Rendering hello/index
   [4;35;1mAnnouncement Load (0.002094)[0m   [0mSELECT * FROM "announcements" WHERE (updated_at > '2010-08-25 05:17:20' OR starts_at > '2010-08-25 05:54:51') AND (starts_at <= '2010-08-25 05:54:51' AND ends_at >= '2010-08-25 05:54:51') [0m
 Completed in 0.03596 (27 reqs/sec) | Rendering: 0.03158 (87%) | DB: 0.00209 (5%) | 200 OK [http://psynosis.local/]
+
+
+Processing HelloController#index (for 192.168.1.11 at 2010-08-25 06:09:46) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlYjI0ODVmNzEwMTlmMTM3ZjQ2M2Q1ZDAzNDU2MjM3
+NWQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA6G2Fubm91bmNlbWVudF9oaWRlX3RpbWV1OglUaW1l
+DSufG4D/nkBF--da0756ebf8f0261d3fab4f0421f9541457841fa3
+  Parameters: {"action"=>"index", "controller"=>"hello"}
+Rendering template within layouts/application
+Rendering hello/index
+  [4;36;1mAnnouncement Load (0.001964)[0m   [0;1mSELECT * FROM "announcements" WHERE (updated_at > '2010-08-25 05:17:20' OR starts_at > '2010-08-25 06:09:46') AND (starts_at <= '2010-08-25 06:09:46' AND ends_at >= '2010-08-25 06:09:46') [0m
+Completed in 0.04319 (23 reqs/sec) | Rendering: 0.03899 (90%) | DB: 0.00196 (4%) | 200 OK [http://psynosis.local/]
+
+
+Processing HelloController#index (for 192.168.1.11 at 2010-08-25 06:09:52) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlYjI0ODVmNzEwMTlmMTM3ZjQ2M2Q1ZDAzNDU2MjM3
+NWQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA6G2Fubm91bmNlbWVudF9oaWRlX3RpbWV1OglUaW1l
+DSufG4D/nkBF--da0756ebf8f0261d3fab4f0421f9541457841fa3
+  Parameters: {"action"=>"index", "controller"=>"hello"}
+Rendering template within layouts/application
+Rendering hello/index
+  [4;35;1mAnnouncement Load (0.001978)[0m   [0mSELECT * FROM "announcements" WHERE (updated_at > '2010-08-25 05:17:20' OR starts_at > '2010-08-25 06:09:52') AND (starts_at <= '2010-08-25 06:09:52' AND ends_at >= '2010-08-25 06:09:52') [0m
+Completed in 0.03521 (28 reqs/sec) | Rendering: 0.03101 (88%) | DB: 0.00198 (5%) | 200 OK [http://psynosis.local/]
+
+
+Processing HelloController#index (for 192.168.1.11 at 2010-08-25 06:10:13) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlYjI0ODVmNzEwMTlmMTM3ZjQ2M2Q1ZDAzNDU2MjM3
+NWQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA6G2Fubm91bmNlbWVudF9oaWRlX3RpbWV1OglUaW1l
+DSufG4D/nkBF--da0756ebf8f0261d3fab4f0421f9541457841fa3
+  Parameters: {"action"=>"index", "controller"=>"hello"}
+Rendering template within layouts/application
+Rendering hello/index
+  [4;36;1mAnnouncement Load (0.001854)[0m   [0;1mSELECT * FROM "announcements" WHERE (updated_at > '2010-08-25 05:17:20' OR starts_at > '2010-08-25 06:10:13') AND (starts_at <= '2010-08-25 06:10:13' AND ends_at >= '2010-08-25 06:10:13') [0m
+Completed in 0.03493 (28 reqs/sec) | Rendering: 0.03080 (88%) | DB: 0.00185 (5%) | 200 OK [http://psynosis.local/]
+  [4;36;1mSQL (0.012650)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001109)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000719)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000620)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.000791)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000911)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mPRAGMA index_list("announcements")[0m
+  [4;35;1mSQL (0.000641)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.001123)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.129072)[0m   [0mCREATE TABLE "announcements" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text DEFAULT NULL NULL, "starts_at" datetime DEFAULT NULL NULL, "ends_at" datetime DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.000832)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.083635)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.100048)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.001000)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000480)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.087296)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100825083352')[0m
